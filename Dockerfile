@@ -1,6 +1,6 @@
-FROM ubuntu:15.04
+FROM ubuntu:18.04
 
-MAINTAINER Florian Benz
+MAINTAINER Simon Scholl
 
 RUN apt-get update && \
     apt-get upgrade -y
